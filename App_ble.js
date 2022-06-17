@@ -22,6 +22,15 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
+import {
+  Colors,
+  DebugInstructions,
+  Header,
+  LearnMoreLinks,
+  ReloadInstructions,
+} from 'react-native/Libraries/NewAppScreen';
+// import {startScan} from './utils/ble';
+
 // import stringToBytes from convert-string package.
 // this func is useful for making string-to-bytes conversion easier
 import {stringToBytes} from 'convert-string';
@@ -399,7 +408,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   body: {
-    // backgroundColor: Colors.white,
+    backgroundColor: Colors.white,
   },
   scanButton: {
     margin: 10,
